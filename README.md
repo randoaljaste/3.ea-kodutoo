@@ -4,6 +4,9 @@ Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetu
 
 **Töö on soovitatav teha kahekesi!**
 
+## Kirjeldus
+Extension, millega saab vahetada optionsis määratud sõnu.
+
 ## Nõuded
 
 1. Kirjelda README.md failis, mida rakendus teeb. 
