@@ -3,12 +3,26 @@
   "name": "RePlaceR",
   "version": "1.0",
   "description": "Replaces word bad with good .",
+  "permissions": [
+      "activeTab",
+    "storage" 
+    ],
+   "background": {
+        "scripts": [
+            "content.js",
+            "options.js"
+
+        ],
+        "persistent": false
+    },
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
     },
-	 "content_scripts":
+
+   "options_page": "options.html",
+   "content_scripts":
   [
     {
       "matches": ["<all_urls>"],
